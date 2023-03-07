@@ -215,6 +215,19 @@ header{
 
 }
 
+.pool_cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 141px;
+}
+
+.complete_card{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .direction_card{
     display: flex;
     flex-direction: column;
@@ -225,16 +238,13 @@ header{
     height: 459px;
     border: none;
     box-shadow: 0px 0px 4px 0px;
-
-}
-
-.direction_img{
     position: relative;
 }
 
 .direction_card_position{
     position: absolute;
-    padding-top: 120px;
+    
+    bottom: 0;
 }
 
 
@@ -266,7 +276,10 @@ header{
     gap: 20px;
     align-items: center;
     /*height: 90px;*/
-    background: linear-gradient(0deg, rgba(32, 32, 33, 0.79) 0%, rgba(32, 32, 33, 0) 231.77%);
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid #E89B2B;
+    margin: 5px;
+    padding: 40px;
 
 }
 
@@ -305,7 +318,27 @@ header{
     background: none;
 }
 
+.line_white{
+    height: 5px;
+    width: 1156px;
+    background: #404043;
+    margin-bottom: 5px;
+}
 
+.see_all{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 140px;
+}
+
+.see_all_text{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #404043;
+    
+}
 
 
 
