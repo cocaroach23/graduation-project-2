@@ -139,7 +139,7 @@ header{
     background: none;
     padding: 10px;
     border: 1px solid #BEBEC8;
-
+    cursor: pointer;
 }
 
 .but_1{
@@ -181,6 +181,129 @@ header{
     background-color: #E89B2B;
 }
 
+.directions_fon{
+    background: #202021;
+}
+
+.headlines_head{
+    padding: 146px 0px 100px 95px;
+}
+
+.headlines_header{
+    position: relative;
+}
+
+.headlines_text_1{
+    font-size: 83px;
+    font-weight: 600;
+    line-height: 82px;
+    /*color: #FFFFFF24 14%;*/
+    color: rgba(255, 255, 255, 0.14);;
+
+}
+
+.headlines_text_2{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    left: 24px;
+    right: 0;
+    bottom: 0;
+
+}
+
+.direction_card{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    margin-top: 50px;
+    /*background: url(image/DanceMix.png);*/
+    width: 380px;
+    height: 459px;
+    border: none;
+    box-shadow: 0px 0px 4px 0px;
+
+}
+
+.direction_img{
+    position: relative;
+}
+
+.direction_card_position{
+    position: absolute;
+    padding-top: 120px;
+}
+
+
+.direction_name{
+    display: flex;
+    /*background-color: #202021;*/
+    color: #FFFFFF;
+    /*width: 140px;*/
+    /*height: 41px;*/
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.direction_name_p{
+    background-color: #202021;
+}
+
+.direction_line{
+    height: 4px;
+    background: #202021;
+    min-width: 380px;
+}
+
+.card_footer{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    gap: 20px;
+    align-items: center;
+    /*height: 90px;*/
+    background: linear-gradient(0deg, rgba(32, 32, 33, 0.79) 0%, rgba(32, 32, 33, 0) 231.77%);
+
+}
+
+.card_time_text{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.card_time_text span{
+    font-family: 'Source Sans 3';
+    line-height: 54px;
+}
+
+.buttoms{
+    display: flex;
+    gap: 62px;
+}
+
+.direct_butt{
+    width: 131px;
+    height: 36px;
+    /*font-size: 28px;*/
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.butt_left{
+    background: #E89B2B;
+}
+
+.butt_right{
+    background: none;
+}
 
 
 

@@ -139,7 +139,7 @@ header{
     background: none;
     padding: 10px;
     border: 1px solid #BEBEC8;
-
+    cursor: pointer;
 }
 
 .but_1{
@@ -181,7 +181,180 @@ header{
     background-color: #E89B2B;
 }
 
+.central_fon{
+    background: #202021;
+}
 
+.card_poledance{
+    display: flex;
+    /*height: 616px;*/
+    padding-top: 210px;
+    justify-content: space-around;
+    
+}
+
+.left_content{
+    width: calc(100% / 2);
+}
+
+.headlines_head{
+    padding: 0px 0px 100px 95px;
+}
+
+.headlines_header{
+    position: relative;
+}
+
+.headlines_text_1{
+    font-size: 83px;
+    font-weight: 600;
+    line-height: 82px;
+    /*color: #FFFFFF24 14%;*/
+    color: rgba(255, 255, 255, 0.14);;
+
+}
+
+.headlines_text_2{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    left: 24px;
+    right: 0;
+    bottom: 0;
+
+}
+
+.items_text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text_item{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FFFFFF;
+   
+}
+
+.text_item span{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.text_center{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.right_content{
+    width: 40%;
+    background: url(image/PoleDance_card.png);
+}
+
+.recording_time_items{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 115px;
+    padding-bottom: 70px;
+    
+}
+
+.recording_time{
+    display: flex;
+    flex-grow: 1;
+    width: calc((100% - 10px) / 2);
+    padding: 10px 0 10px 0;
+    
+}
+
+.recording_time_text{
+    display: flex;
+    justify-content: space-between;
+    width: 402px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 51px;
+    color: #FFFFFF;
+    padding: 0 15px 0 15px;
+    border: 1px solid #E89B2B;
+}
+
+.recording_time_butt{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    color: #FFFFFF;
+    background: #E89B2B;
+    border: 1px solid #E89B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.subscription_FirstLesson{
+    background: url(image/Frame2_FirstLesson.png);
+    
+}
+
+.FirstLesson{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px 17px 103px;
+    gap: 30px;
+}
+
+.FirstLesson_text{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.FirstLesson_butt{
+    background: #E89B2B;
+    width: 172px;
+    height: 45px;
+    /*font-size: 28px;*/
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;    
+}
+
+.FirstLesson_line{
+    height: 4px;
+    background-color: #E89B2B;
+}
+
+.butt_directions{
+    padding: 65px 0 65px 0;
+}
+
+.butt_region{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.butt_direct{
+    display: flex;
+    gap: 20px;
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 38px;
+    color: #FFFFFF;
+    background: none;
+    text-decoration: none;
+}
 
 
 

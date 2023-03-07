@@ -139,7 +139,7 @@ header{
     background: none;
     padding: 10px;
     border: 1px solid #BEBEC8;
-
+    cursor: pointer;
 }
 
 .but_1{
@@ -286,6 +286,7 @@ header{
     font-weight: 700;
     line-height: 28px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .butt_left{
@@ -401,7 +402,8 @@ header{
     /*font-size: 28px;*/
     font-weight: 700;
     line-height: 28px;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    cursor: pointer; 
 }
 
 .FirstLesson_line{
@@ -490,6 +492,7 @@ header{
     font-weight: 700;
     line-height: 28px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 footer{
