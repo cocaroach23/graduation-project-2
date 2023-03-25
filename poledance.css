@@ -65,7 +65,7 @@ header{
     gap: 54px;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.81) 2%, rgba(0, 0, 0, 0.589424) 89.15%, rgba(0, 0, 0, 0) 114.5%);
     max-width: 680px;
-    margin-left: 370px;
+    
 
 }
 
@@ -489,4 +489,155 @@ footer{
     font-weight: 400;
     line-height: 23px;
     color: #FFFFFF;
+}
+
+@media(max-width: 1220PX){
+
+    .headlines_head {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+        
+    .card_poledance{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .right_content{
+        background: none;
+        width: 0%;
+    }
+
+    .recording_time{
+        width: calc(100% / 1);
+        justify-content: center;
+    }
+
+    .butt_region{
+        justify-content: center;
+    }
+
+    .social_network{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 980px){
+    
+    header{
+        background-size: cover;
+        background-position: center;
+        background-attachment: local;
+    }
+    
+    .header{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer_info{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+@media(max-width: 680px){
+
+    .header_card {
+        display: none;
+    }
+
+    .footer_contacts{
+        gap: 25px;
+    }
+
+    .butt_direct{
+        font-size: 28px;
+    }
+
+    .recording_time_text{
+        font-size: 30px;
+    }
+
+    .recording_time_butt{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 428px){
+
+    .recording_time_text{
+        font-size: 24px;
+    }
+
+    .recording_time_butt{
+        font-size: 24px;
+    }
+
+    .FirstLesson{
+        padding: 25px 0 17px 0;
+        align-items: center;
+    }
+
+    .FirstLesson_text{
+        font-size: 40px;
+    }
+
+    .butt_direct {
+        font-size: 20px;
+    }
+
+    .footer_contacts{
+        padding-right: 0;
+    }
+
+    .address_text{
+        font-size: 20px;
+    }
+
+    .number{
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width:322px){
+
+    .header_navigation{
+        flex-direction: column;
+    }
+
+    .header_card_location{
+        display: none;
+    }
+
+    .headlines_head{
+        padding-left: 0;
+    }
+
+    .text_item{
+        font-size: 20px;
+    }
+
+    .text_center{
+        font-size: 20px;
+    }
+
+    .recording_time_text{
+        font-size: 22px;
+    }
+
+    .recording_time_butt{
+        font-size: 22px;
+    }
+
+    .FirstLesson_text{
+        font-size: 30px;
+    }
+
+    
+
+   
 }
