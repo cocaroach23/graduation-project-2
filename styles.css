@@ -264,7 +264,7 @@ header{
 .direction_line{
     height: 4px;
     background: #202021;
-    min-width: 380px;
+    width: 380px;
 }
 
 .card_footer{
@@ -315,6 +315,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap:20px;
     background: rgba(16, 16, 16, 0.86);
     max-width: 381px;
     max-height: 329px;
@@ -327,18 +328,22 @@ header{
     margin: 14px 22px 0 42px;
 }
 
-.studio_tex1{
-    font-size: 32px;
+.studio_color_1{
     font-weight: 600;
     line-height: 32px;
     color: #FFFFFF;
 }
 
-.studio_text2{
-    font-size: 32px;
+.studio_color_2{
+    
     font-weight: 300;
     line-height: 32px;
     color: #C88930;
+}
+
+.studio_text{
+    font-size: 32px;
+    
 }
 
 .studio_card_foot{
@@ -687,6 +692,10 @@ footer{
     .header_card{
         display: none;
     }
+
+    .footer_contacts {
+        gap: 25px;
+    }
 }
 
 @media(max-width: 530px){
@@ -696,5 +705,91 @@ footer{
 
     .studio_card{
         margin: 0 10px 0 10px;
+    }
+}
+
+@media(max-width: 428px){
+
+    .direction_card{
+        width: 280px;
+        height: auto;
+    }
+
+    .direction_line{
+        max-width: 280px;
+    }
+
+    .buttoms{
+        gap: 28px;
+    }
+
+    .direct_butt{
+        width: auto;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .headlines_head{
+        padding-left: 0px;
+    }
+
+    .studio_text{
+        font-size: 24px;
+    }
+
+    .subscription_card{
+        width: 280px;
+        height: auto;
+    }
+
+    .subscription_img{
+        width: 280px;
+        height: auto;
+    }
+
+    .sub_butt{
+        font-size: 24px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    .sub_card_foot_p{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .sub_card_foot_p span{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .footer_contacts {
+        padding-right: 0;
+    }
+
+    .address_text {
+        font-size: 20px;
+    }
+
+    .number {
+        font-size: 18px;
+    }
+
+    
+}
+
+@media(max-width: 322px){
+    
+    .direction_card{
+        width: 280px;
+        height: auto;
+    }
+
+    .direction_line{
+        width: 280px;
+    }
+
+    .buttoms{
+        gap: 28px;
     }
 }
