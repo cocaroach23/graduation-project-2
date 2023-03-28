@@ -504,6 +504,7 @@ header{
 
 footer{
     background: url(image/studio_fon.png);
+    background-attachment: fixed;
 
 }
 
@@ -744,7 +745,7 @@ footer{
 
     .subscription_img{
         width: 280px;
-        height: auto;
+        height: 350px;
     }
 
     .sub_butt{
